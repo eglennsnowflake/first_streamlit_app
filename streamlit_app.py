@@ -51,3 +51,9 @@ streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row)
 
 
+#Add an input box to screen and allow user to choose what fruit we look up via the api call
+add_my_fruit = streamlit.text_input('What fruit would you like to add?','jackfruit')
+streamlit.write('Thanks for adding ', add_my_fruit)
+
+
+
